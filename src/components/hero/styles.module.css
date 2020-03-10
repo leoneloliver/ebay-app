@@ -1,0 +1,12 @@
+.hero {
+  background-image: linear-gradient(141deg, #e3bd30 0%, #e3be30 51%, #e3bd30 75%);
+  margin-top: 8px;
+  padding: 22px 0 32px;
+  color: #fff;
+  text-shadow: 2px 2px #f4af33;
+  /* color: #ffffff; */
+  margin-bottom: 20px;
+  border-top: 4px solid #f4af33;
+}
+
+

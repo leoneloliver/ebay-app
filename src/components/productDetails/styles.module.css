@@ -1,0 +1,14 @@
+.price {
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+.detailcontainer{
+  padding: 25px;
+}
+.detailcontainer img{
+  width: 250px !important;
+}
