@@ -1,5 +1,6 @@
 import * as React from 'react'
 import classnames from 'classnames'
+import {Link} from 'react-router-dom'
 
 import Gallery from '../gallery'
 // import Map from '../map'
@@ -43,7 +44,7 @@ function ProductDetails({ listing }) {
                 $ 
                 {asCurrency(price.value)}
               </h5>
-              <button className="btn-buy">Buy it Now</button>
+              <Link className="btn-buy" to={'/'}>Buy it Now</Link>
             </div>
             
           </div>
