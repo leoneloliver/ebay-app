@@ -16,7 +16,7 @@ img.img-responsive {
 .card-title{
   font-size: 0.8rem;
   margin-bottom: 16px;
-  min-height: 68px;
+  /* min-height: 68px; */
   color: #6f6f6f;
   padding-top: 10px;
 }
@@ -25,7 +25,7 @@ img.img-responsive {
   color: #333;
   letter-spacing: .7px;
   font-weight: bold;
-  min-height: 19px;
+  margin-bottom: 70px;
 }
 a.btn.btn-primary {
   background: #fff;
@@ -164,4 +164,21 @@ button.btn-buy:hover {
 }
 .text-smaller{
   font-size: 0.8rem;
+}
+.card-footer{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 90%;
+  left: 5%;
+  margin-bottom: 20px;
+}
+.img-detail-container{
+  padding: 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+figure{
+  padding: 12px 5px !important;
+  margin: 0;
 }
