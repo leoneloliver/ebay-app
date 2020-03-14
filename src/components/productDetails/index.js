@@ -34,11 +34,11 @@ function ProductDetails({ listing }) {
         <div className="column col-6 col-xs-12">
           <Gallery image={image} title={title} price={price.value}/>
 
-          <div className="column flex">
+          <div className="column flex-resize">
             <div className="more-details">
               Returns:<br />30 day returns. Buyer pays for return shipping <a href="#">See details</a>
             </div>
-            <div className="flex btn-container">
+            <div className="flex-resize btn-container">
               <h5 className={priceClasses}>
                 <small>Price </small>
                 $ 

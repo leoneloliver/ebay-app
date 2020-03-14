@@ -2,7 +2,7 @@ import * as React from 'react'
 
 function Gallery({ image, title, price }) {
   return (
-    <figure className="figure flex">
+    <figure className="figure flex-resize">
       <div className="img-detail-container">
         <img className="img-responsive img-detail" src={`${image}`} alt={title} />
       </div>

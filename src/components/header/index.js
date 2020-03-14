@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="scope">
         <div className="top">
-          <div className="prod-container flex">
+          <div className="prod flex">
             <img className="logo" src={logo} alt="logo" />
             
           </div>

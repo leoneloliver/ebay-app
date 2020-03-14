@@ -65,7 +65,7 @@ class Filter extends React.Component {
         </div> 
         <div className={containerClasses}>
             <div className={containerClasses}>
-              <div className="column">
+              <div className="column hide-x">
                 <div className="flex">
                   <div className="label-filter">
                     <label className="form-label" htmlFor="price-from">
@@ -88,7 +88,7 @@ class Filter extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column">
+              <div className="column hide-x">
                 <div className="flex">
                   <div className="label-filter">
                     <label className="form-label" htmlFor="postcode">
@@ -112,9 +112,9 @@ class Filter extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column">
-                <div className="flex">
-                  <div className="label-filter">
+              <div className="column w-100">
+                <div className="flex w-100">
+                  <div className="label-filter hide-x">
                     <label className="form-label" htmlFor="sortorder">
                       Sort Order
                     </label>
@@ -136,30 +136,30 @@ class Filter extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="flex">
-              <div className="label-filter">
-                Refine your results
-                
-              </div>
-              <div className="input-filter">
-              <button
-                  data-cy="clear-button"
-                  className="input-button"
-                  type="button"
-                  onClick={() => {
-                    this.setState(Object.assign({}, DefaultState))
-                    updateFilter({})
-                  }}
-                >
+              <div className="flex hide-x">
+                <div className="label-filter">
+                  Refine your results
+                  
+                </div>
+                <div className="input-filter">
+                  <button
+                    data-cy="clear-button"
+                    className="input-button"
+                    type="button"
+                    onClick={() => {
+                      this.setState(Object.assign({}, DefaultState))
+                      updateFilter({})
+                    }}
+                  >
                   Clear
-                </button>
+                  </button>
+                </div>
               </div>
+              <div className="hide-x hide-m">
+                <div data-cy="property-count" className="list-number">
+                  {`${count} ${getPropertiesDisplayText(count)} on the List`}
+                </div>
               </div>
-            <div>
-              <div data-cy="property-count" className="list-number">
-                {`${count} ${getPropertiesDisplayText(count)} on the List`}
-              </div>
-            </div>
             </div>
 
 

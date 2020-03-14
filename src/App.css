@@ -10,6 +10,9 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
+.flex-resize{
+  display: flex;
+}
 img.img-responsive {
   width: 160px;
 }
@@ -181,4 +184,34 @@ h3.text-dark.text-small.mb-1 {
 figure{
   padding: 12px 5px !important;
   margin: 0;
+}
+
+
+@media screen and (max-width: 1160px) {
+  .hide-m{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hide-x{
+    display: none;
+  }
+  .flex-resize {
+    display: block;
+  }
+  .btn-container,.btn-buy {
+    margin-left: 0;
+  }
+  .w-100{
+    width: 100%;
+  }
+  .input-filter {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 730px){
+  
 }
