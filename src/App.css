@@ -210,8 +210,14 @@ figure{
     width: 100%;
     margin-left: 20px;
   }
-}
-
-@media screen and (max-width: 730px){
-  
+  .btn-buy {
+    display: block;
+    text-align: center;
+  }
+  .img-detail-container{
+    text-align: center;
+  }
+  .description {
+    padding: 25px 0;
+  }
 }
